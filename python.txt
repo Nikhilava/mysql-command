@@ -1,0 +1,2009 @@
+#Python Program for Linear Search
+# x=[1,4,5,3,7,8]
+# a=int(input("enter the search number"))
+# flag=0
+# for i in range(0,len(x)):
+#     if a==x[i]:
+#         flag=i+1
+
+#         break
+#
+# if flag==0:
+#         print("no not find")
+# else:
+#     print("number are foundin ",flag,"position")
+
+
+#linear search
+# a=[10,20,30,40]
+# g=int(input('enter number'))
+# f=0
+# for i in range(0,len(a)):
+#     if g==a[i]:
+#         f=f+i
+#         print("number are found",f,'location')
+#         break
+# else:
+#     print('not found number ',"location")
+
+
+# x=[10,20,30,40,50,60,70,80]
+# a=int(input('enter your number'))
+# flaf=0
+# for i in range(0,len(x)):
+#     if a==x[i]:
+#         flaf=i+1
+#         break
+# if flaf==0:
+#     print('number not find')
+# else:
+#     print('number are find',flaf,'position')
+
+
+#
+# x=[1,2,4,5,7]
+# a=int(input("enter the number "))
+# flasg=0
+# for i in range(0,len(x)):
+#     if a==x[i]:
+#         flasg=i+1
+# if flasg==0:
+#     print("number not found")
+# else:
+#     print("number found",flasg)
+
+#linear searh
+# x=[1,4,2,7,8,3]
+# b=int(input("enter the number"))
+# flag=0
+# for i in range(0,len(x)):
+#     if b==x[i]:
+#         flag=i+1
+#         print("givin number are find")
+# if flag==0:
+#     print("given number are not find")
+# else:
+#     print("given number are ",flag,"location")
+
+#
+# x=[1,4,8]
+# b=int(input('enter given number'))
+# flag=1
+# for i in range(0,len(x)):
+#     if b==x[i]:
+#
+#         flag=i
+#         print('givrn number are find')
+# if b==0:
+#     print('given number are not find out')
+# else:
+#     print('given number are localation',flag,'number find')
+
+
+#Bubble sort
+# x=[1,4,2,3,5,4]
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>=x[j+1]:
+#             c=x[j]
+#             x[j]=x[j+1]
+#             x[j+1]=c
+# print(x)
+# a=[4,5,6,0,4,0,3,8,2,5]
+# for i in range(0,len(a)):
+#     for j in range(0,len(a)-1):
+#         if a[j]>a[j+1]:
+#             c=a[j]
+#             a[j]=a[j+1]
+#             a[j+1]=a[j]
+#             a[j+1]=c
+# print(a)
+
+# x=[1,0,4,6,2,3]
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>x[j+1]:
+#             c=x[j]
+#             x[j]=x[j+1]
+#             x[j+1]=x[j]
+#             x[j+1]=c
+# print(x)
+
+#Bubble sort in python
+# x=[10,50,10,40,6.,80]
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>=x[j+1]:
+#             c=x[j]
+#             x[j]=x[j++1]
+#             x[j+1]=c
+# print(x)
+# x=[10,5,3,4,8]
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>x[j+1]:
+#             c=x[j]
+#             x[j]=x[j+1]
+#             x[j+1]=c
+# print(x)
+# x=[10,20,330,40,1,5,9]
+#
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>=x[j+1]:
+#             c=x[j]
+#             x[j]=x[j+1]
+#             x[j+1]=c
+# print(x)
+
+
+
+
+
+
+#Linear search
+# x=[10,30,20,50,40]
+# n=int(input("enter the number "))
+# flag=0
+# for i in range(0,len(x)):
+#     if n==x[i]:
+#         flag=i+1
+# if flag==0:
+#     print("number not find")
+# else:
+#     print("number are found,",flag)
+#
+# x=[10,20,30,40,50,40,50]
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>=x[j+1]:
+#             c=x[j]
+#             x[j]=x[j+1]
+#             x[j+1]=c
+# print(x)
+
+# x=[1,2,3,4]
+# b=int(int(input('enter given number')))
+# c=0
+# for i in range(len(x)):
+#     if b==x[i]:
+#         c=c+1
+# if c==0:
+#     print('number not find')
+# else:
+#     print("number find",c,"location")
+
+
+
+
+#Write a python program for string that will print out char with char count.
+#E.g. words = 'aaaabahhhhhaaa' Output should be a4b1a1h5
+# a='aaaabahhhhhaaa'
+# b={}
+# for i in a:
+#     if i in b.keys():
+#         b[i]=b[i]+1
+#     else:
+#         b[i]=1
+# for k,v in b.items():
+#     print("{}{}".format(k,v),end="")
+
+
+# #7. write a program for character count string "aaabbbccaa" for output:a5b3c2
+#
+# a="aaabbbccaa"
+# b={}
+# for i in a:
+#     if i in b.keys():
+#         b[i]=b[i]+1
+#     else:
+#         b[i]=1
+#
+# for k,v,in b.items():
+#     print("{}{}".format(k,v),end="")
+
+
+
+
+
+
+# a="avjhvajvahjfnkjf"
+# b={}
+# for i in a:
+#     if i in b.keys():
+#         b[i]=b[i]+1
+#     else:
+#         b[i]=1
+# for k,v in b.items():
+#     print("{}{}".format(k,v),end='')
+# from collections import  Counter
+# a="aassdeddefggggre"
+# c=Counter(a)
+# print(c)
+# b={}
+# for i in a:
+#     if i
+#     in b.keys():
+#         b[i]=b[i]+1
+#     else:
+#         b[i]=1
+# for k,v in b.items():
+#     print("{}{}".format(k,v),end='')
+
+# a="aaaanikaadccaed"
+# b={}
+# for i in a:
+#     if i in b.keys():
+#         b[i]=b[i]+1
+#     else:
+#         b[i]=1
+# for k,v,in b.items():
+#     # print(format(k,v))
+#     print("{}{}".format(k,v),end='')
+
+
+#Write a python program for string that will print out char with char count.
+#E.g. words = 'aaaabahhhhhaaa' Output should be a4b1a1h5
+# from collections import Counter
+# words = 'aaaabahhhhhaaa'
+# b=Counter(words)
+# print(b)
+
+
+#Python Program for Binary Search (Recursive and Iterative)
+# x=[1,2,3,4,5,6,7,8,9,10]
+# n=int(input("enter the search number"))
+# flag=0
+# last=len(x)-1
+# while flag<=last:
+#     mid=(flag+last)//2
+#     if x[mid]==n:
+#         print("number in  x",mid+1,"location")
+#         break
+#     elif x[mid]>n:
+#         last=mid-1
+#     else:
+#         flag>last
+# if flag>last:
+#     print("number not avaible in list")
+
+# binary search orogram
+# x=[1,2,3,4,5,7,9,8,10,9]
+# x.sort()
+# print(x)
+# # n=int(input("enter the number"))
+# # first=0
+# # last=len(x)-1
+# # while first<=last:
+# #     mid=(first+last)//2
+# #     if x[mid]==n:
+# #         print("number in",mid+1,'location')
+# #         break
+# #     elif x[mid]>n:
+# #         last=mid-1
+# #     else:
+# #         first=mid+1
+# # if first>last:
+# #     print("number not found")
+
+
+##bubble sort in python method
+# x=[5,4,3,8,1]
+# for i in range(0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j]>=x[j+1]:
+#             c=x[j]
+#             x[j]=x[j+1]
+#             x[j+1]=c
+# print(x)
+
+
+#Get Current Date and Time using Python
+# import datetime
+# now=datetime.datetime.now()
+# print("current date and time is")
+# print(now.strftime("%y-%m-%d %H:%M:%S")
+# date1=dt.strftime("%B,%d,%y")
+# print(date1)
+# import datetime
+# now= datetime.datetime.now()
+# print(now)
+#current date and time
+# from time import*
+# et=ctime()
+# print(et)
+#Python program to get Current Time
+# from  datetime import datetime
+# now=datetime.now()
+# print("current time")
+# print(now.strftime("%H:%M:%S"))
+
+#Python | Find yesterday’s, today’s and tomorrow’s date
+# import datetime
+# today=datetime.datetime.today()
+# yestraday=today-datetime.timedelta(days=2)
+# tomorrow=today+datetime.timedelta(days=1)
+# print(today)
+# print(yestraday)
+# print(tomorrow)
+#Python program to convert time from 12 hour to 24 hour format
+# def timeconverter(string):
+#     if string[-2:]=='AM' and string[:2]=='12':
+#         return "00"+string[2:-2]
+#     elif string[-2:]=='AM':
+#         return string[:-2]
+#     elif string[-2:]=='pm' and string and string[:2]=='12':
+#         return string [:-2]
+#     else:
+#         return string(int(string[:2])+12)+string[2:8]
+# print(timeconverter("12:05:50 AM"))
+
+#Python program to find difference between current time and given time
+
+# def difference(h1,m1,h2,m2):
+#     t1=h1*60+m1
+#     t2=h2*60+m2
+#     if (t1==t2):
+#         print("both are same time")
+#         return
+#     else:
+#         diff=t2-t1  # calculating hours from
+#     # difference
+#     h=(int(diff/60))%24
+#     # calculating minutes from
+#     # difference
+#     m=diff%60
+#     print(h,":",m)
+# if __name__ == "__main__":
+#     difference(15,23,18,54)
+import datetime
+
+#difference betwin current time and given time
+    # def difference(h1,m1,h2,m2):
+    #     t1=h1*60+m1
+    #     t2=h2*60+m2
+    #     if (t1==t2):
+    #         print("both time are same")
+    #     else:
+    #         diff=t2-t1
+    #         h=int((diff/60))%24
+    #         m=diff%60
+    #         print(h,":",m)
+    # difference(3,40,5,60)
+
+# import time
+# initial=time.time()
+# k=1
+# while (k<=40):
+#     print("hi nikhil",time.time()-initial,"second")
+#     k+=1
+# initial1=time.time()
+# for i in range(45):
+#     print("hi avanti",time.time()-initial1,"second")
+# #Convert date string to timestamp in Python
+# import time
+# import datetime
+#
+# s="01/10/2021"
+# print()
+# print(time.mktime(datetime.datetime.strptime(s,"%d/%m/%Y").timetuple()))
+# print()
+
+
+# Python program to read file word by word
+# f=open("today assignment10.txt",mode='w')
+# f.write("Baa, baa, black sheep Have you any wool?Yes sir, yes sir Three bags full One for the master One for the dame And one for the little boy Who lives down the lane")
+# f.close()
+# f=open("today assignment10.txt",mode='r')
+# s=f.read()
+# for i in s.split():
+#     print(i)
+# f.close()
+
+
+# Python program to read character by character from a file
+# f=open("today assignment1.txt",mode="r")
+# s=f.read()
+# cunt=0
+# for i in s:
+#     if i=="n":
+#         cunt=cunt+1
+# print(cunt)
+# f.close()
+
+#Python Program to obtain the line number in which given word is present
+
+# f=open("today assignment1.txt",mode="r")
+# lines = len(f.readlines())
+# print("total number of lines",lines)
+# f.close()
+
+
+
+#python Program to Eliminate repeated lines from a file
+# f1=open("today assignment1.txt","r")
+# data1=f1.readlines()
+# for d1 in data1:
+#     f2=open("today assignment1.txt","r")
+#     data2=f2.readlines()
+#     if d1 not in data2:
+#         f2=open("today assignment1.txt","a+")
+#         f2.write(d1)
+
+
+#8. Python – Append content of one text file to another
+# f=open("today assignment3.txt",mode="w")
+# f.write("What is the Johnny Johnny Yes Papa meme?Image result for jony jony yes pappaBillion Surprise Toys/YouTube. The meme seems to be everywhere. They're from a series of videos for kids by the company Billion Surprise Toys, based on a nursery rhyme where a father tries to stop his son Johny from eating sugar.")
+# f.close()
+# f1=open("today assignment1.txt","r")
+# data1=f1.readlines()
+# for d1 in data1:
+#     f2=open("today assignment2.txt","a")
+#     f2.write(d1)
+#
+
+#10. Python Program to merge two files into a third file
+
+# f1=open("today assignment1.txt",mode="r")
+# date1=f1.readline()
+# for i in date1:
+#     f3=open("today assignment3.txt",mode='a')
+#     f3.write(i)
+# f2=open("today assignment2.txt",mode="r")
+# data2=f2.readlines()
+# for d2 in data2:
+#     f3=open("today assignment3.txt","a")
+#     f3.write(d2)
+
+
+#Problem: Remove specified characters in a string irrespective of the
+#case.char_to_remove =['A','N'] string= 'Think Analytics'
+# string='Think Analytics'
+# new_char=''
+# for char in string:
+#     if char !='A'and'n':
+#         new_char+=char
+#
+# print(new_char)
+#remove spical charcter in string
+# mytxt = 'python -- is. easy!'
+#
+# res_txt = ''
+#
+# for character in mytxt:
+#
+# if character.isalnum():
+#
+# res_txt += character
+#
+# print(res_txt)
+
+
+# name="nikhil#$@"
+# new=''
+# for i in name:
+#     if i.isalnum():
+#         new=new+i
+# print(new)
+
+
+# name='nikhl@#10avanti'
+# new=''
+# for i in name:
+#     if i.isalnum():
+#         new+=i
+# print(new)
+
+
+import re
+#
+mytxt = 'python -- is. easy!'
+j=''
+
+# res_txt = ''.join(filter(str.isalnum, mytxt))
+#
+# print(res_txt)
+#or#
+# for i in mytxt:
+#     if i.isalnum():
+#         j=j+i
+# print(j)
+# a='sdff efewklfew ewfkwefewf ewfwefe'
+# b=''.join(filter(str.isalnum,a))
+# print(b)
+
+# name='python-----is .easy!!'
+# new_name="".join(filter(str.isalnum,name))
+# print(new_name)
+# import csv
+# with open('xyz.csv','w') as b:
+#     file=csv.writer(b)
+#     file.writerow(['roll_no','name','last_name'])
+#     b.close()
+
+
+#csv file
+# import csv
+# with open('student1.csv','w') as f:
+#     file=csv.writer(f)
+#     for i in range(5):
+#         roll=int(input('enter roll number'))
+#         name=input('enter your name')
+#         last_name=input('enter your last name')
+#         result=[roll,name,last_name]
+#         file.writerow(result)
+
+#4Python | Finding ‘n’ Character Words in a Text File
+# #
+# f=open("abc.txt","r")
+# z1=f.readlines()
+# for line in z1:
+#    word=line.split()
+#    for w in word:
+#         length=len(w)
+#         if length==4:
+#             print(w)
+
+#marage two file with thired file
+
+# f=open("uj.txt",mode='w' )                   #uj and uj1 and uj2 are new file created and after 2 file are marage in thired uj3 fiel are find below procees.
+# f.write("hi iam nikhl avanti")
+# f.close()
+# f=open('uj2.txt',mode='w')
+# f.write("iam from solapur")
+# f.close()
+# f=open("uj3.txt",mode='w')
+# f.write('iam softwer engineer')
+# f.close()
+#
+# f1=open('uj.txt',mode='r')
+# d1=f1.readline()
+# for i in d1:
+#     f2=open('uj3.txt',mode='a')
+#     f2.write(i)
+# f3=open('uj2.txt',mode='r')
+# d2=f3.readline()
+# for i2 in d2:
+#     f2=open('uj3.txt',mode='a')
+#     f2.write(i2)
+
+
+
+
+# a=10
+# b=0
+# try:
+#     f=a/b
+#     print(f)
+# except ZeroDivisionError:
+#     print('accept zero division error')
+# else:
+#     print('no error')
+# finally:
+#     print('finally are always exacuted ')
+
+#user defined exception
+# class BalanceException(Exception):
+#     pass
+# def checkbalance():
+#     money=1000
+#     withdraw=5000
+#     try:
+#         balance=money-withdraw
+#         if (balance<=2000):
+#             raise BalanceException
+#         print(balance,"insuffishant balance")
+#     except BalanceException as be:
+#         print(be)
+#     else:
+#         print('no anr error')
+# f=checkbalance()
+# print(f)
+
+#
+
+#
+# a=input('enter u r string')
+# b=a[::-1]
+# for i in b:
+#     if b==a:
+#         print('palindroeam')
+#         break
+#     else:
+#         print("not paliendroeam")
+#         break
+
+#calcuate uppeer case and lower case in string
+# def strings(s):
+#     lo=0
+#     l1=0
+#     for i in s:
+#         if i.isupper():
+#             lo=lo+1
+#         elif i.islower():
+#             l1=l1+1
+#         else:
+#             pass
+#     print(s)
+#     print(lo,"upper case")
+#     print(l1,"lower case")
+#
+# strings("NIKHIil Mallinath")
+
+#find most friquent value in list
+# a=[1,2,1,5,4,4,4,4,7,8]
+# import statistics
+# from statistics import mode
+#
+# def most_common(List):
+#     return (mode(List))
+# List = [2, 1, 2, 2, 1, 3]
+# print(most_common(List))
+
+
+#read contat of file
+# g=open("emo.txt",mode='w')
+# g.close()
+# g=open("emo.txt",mode="r")
+# print(g.read())
+
+
+#add two number using decorator
+
+# def function(np):
+#     def decor():
+#         a=np()
+#         b=a+8
+#         return b
+#     return decor()
+# @function
+# def fun():
+#     return 800
+# print(fun)
+
+
+#bubble sorting
+# l=[0,1,0,1,0,0,0,1,1,1]
+# for i in range(0,len(l)):
+#     for j in range(0,len(l)-1):
+#         if l[j]>=l[j+1]:
+#             d=l[j]
+#             l[j]=l[j+1]
+#             l[j+1]=d
+# print(l)
+
+#count number of add and even in list
+# l=[15,26,44,18,72,9,5]
+# odd,even=0,0
+# for i in l:
+#     if i%2==0:
+#         odd=odd+1
+#     elif i%2!=0:
+#         even=even+1
+#
+# print(odd,"odd number")
+# print(even,'even number')
+
+
+#print even number in list
+# l=[11,22,32,54,96,68,42]
+# n=[]
+# g=[]
+# for i in l:
+#     if i%2==0:
+#         n.append(i)
+#     elif i%2!=0:
+#         g.append(i)
+#
+# print(g)
+# print(n)
+
+#without chaning ip address change duplicate elemnt in list
+# l=[10,20,30,10,20]
+# j=[]
+# for i in l:
+#     if i not in j:
+#         j.append(i)
+# print(j)
+
+#explane decorator with example
+# def nik(x):
+#     def nik():
+#         g=x()
+#         su=g+8
+#         return su
+#     return nik()
+# @nik
+# def ddeco1():
+#     return 100
+# print(ddeco1)
+
+
+#list of 10 element queb of each element
+# l=[2,3,4,5]
+# j=[]
+# for i in l:
+#     j.append(i*i*i)
+# print(j)
+
+#
+# a=[['Gfg', 'good'], ['is', 'for']] #Output=[‘Gfgis’, ‘goodfor’]
+# li=a[0][0]+a[1][0],a[0][1]+a[1][1]
+# print(list(li))
+
+#reverse string withou using split
+# a="hello how are you"
+# b=a[::-1]
+# print(b)
+#second method
+# b=""
+# for i in a:
+#     b=i+b
+# print(b)
+
+
+#print retungular star pattern
+# rows=int(input('enter rous'))
+# coloum=int(input("enter coloum"))
+# for i in range(rows):
+#     for j in range (coloum):
+#         print("*",end="   ")
+#     print()
+
+#
+#find interction of two list
+# a=[1,2,3,4]
+# b=[2,4,6,8]
+# f=[]
+# for i in a:
+#     if i in b:
+#         f.append(i)
+# print(f)
+
+# a="aaaabbbcdd"
+# ch={}
+# for i in a:
+#     if i in ch:
+#         ch[i]=ch[i]+1
+#     else:
+#         ch[i]=1
+# print(ch)
+# # from collections import Counter
+
+
+
+
+
+
+
+# a='pravin is my name'
+# d=''
+# d=a.split()
+# f=""
+# print(d)
+# for i in d:
+#     f=i+f
+#     f.split()
+# print(f)
+# f=a.split()
+#
+# for i in f:
+#     d=i+d
+# print(d)
+
+
+
+#write program to reverse list
+# a=[2,4,5,7,8,6]
+# a.reverse()
+# print(a)
+
+# a=[1,2,3,4]
+# d={i:i*i for i in a}
+# print(d)
+# #
+# d=dict(map(lambda x:(x,x*2),a))
+# print(d)
+
+
+# Q.12 Write a python program for beow pattern
+# 1
+# 2 3
+# 4 5 6
+# 7 8 9 10
+# ANS:
+# num_rows = 4
+# count = 0
+#
+# for i in range(num_rows):
+#     for j in range(i + 1):
+#         print(count, end=' ')
+#         count += 1
+#     print()
+
+
+# a=4
+# v=0
+# for i in range(a):
+#     for j in range(i+1):
+#         v=v+1
+#         print(v,end=' ')
+#     print(" ")
+
+# Q.18.  how to read file in python and count the number of lines.
+# Ans:
+# filename = "example.txt" # Replace with the name of your file
+# num_lines = 0
+#
+# with open(filename, 'r') as file:
+#     for line in file:
+#         num_lines += 1
+#
+# print("The file", filename, "has", num_lines, "lines.")
+
+
+
+# num=0
+# with open('emo.txt',mode='r') as fi:
+#     for i in f i:
+#         num=num+1
+#
+# print(num)
+
+# my_string = "This is a string with spaces."
+# my_string = ''.join(my_string.split())
+# print(my_string)
+
+
+
+# li = ['apple', 'banana', 'cherry', 'durian', 'elderberry']
+# Ans:
+# li = ['apple', 'banana', 'cherry', 'durian', 'elderberry']
+# longest_word = ""
+#
+# i = 0
+# while i < len(li):
+#     if len(li[i]) > len(longest_word):
+#         longest_word = li[i]
+#     i += 1
+#
+# print("The longest word is:", longest_word)
+
+# a=['apple','banana','orange','pear']
+# a.sort(key=len)
+# print(a)
+
+
+# find second highst number in list
+# lst = [10, 20, 4, 45, 99]
+# m=max(lst)
+# x=[a for i,a in enumerate(lst) if a<m]
+# print(max(x))
+
+# a=[10,50,40,30,80]
+# m=set(a)
+# m.remove(max(m))
+# print(max(m))
+
+
+
+# a=[10,20,30,40,90]
+# b=int(input('enter number'))
+# flag=0
+# for i in range(0,len(a)):
+#     if b==a[i]:
+#         flag=flag+1
+#         break
+# if flag==0:
+#     print('not find')
+# else:
+#     print('fin number',flag,'location')
+
+# a=["this","is","fhdme","qwrtye"]
+# a.sort(key=len)
+# print(a[2:])
+
+#convert two list into dictionary  imp
+# def list():
+#     key=[1,2,3]
+#     value=["one","two","three"]
+#     retu=dict(zip(key,value))
+#     print(retu)
+# list()
+
+# key=[1,2,3]
+# value=["one","two","three"]
+# b=dict(zip(key,value))
+# print(b)
+
+
+#repeates in sring are counr(repated string are count)
+# a=input('enter string')
+# f=a.split()
+# d={}
+# for i in f:
+#     if i not in d.keys():
+#         d[i]=0
+#     d[i]=d[i]+1
+# print(d)
+# import time
+# t1=time.time()
+# a=input('enetr string')
+# s=a.split()
+# g={}
+# for i in s:
+#     if i not in g.keys():
+#         g[i]=0
+#     g[i]=g[i]+1
+# print(time.time()-t1,"time are requried")
+# print(g)
+
+
+#Python program to show to randomise elements of a list
+import random
+# list_ = ["Python", "Interview", "Questions", "Randomise", "List"]
+# print("originam ",list)
+# random.shuffle(list_)
+# print(list_)
+
+# a=["name","surname",'moddlaname']
+# random.shuffle(a)
+# print(a)
+
+# from collections import Counter
+# a=input('enter string')
+# print(a.split())
+# b=Counter(a)
+# print(b)
+
+#coman element present in two set
+# a={10,20,10,50,40,20}
+# b={10,50,20,80,70,90}
+# f=a.intersection(b)
+# print(list(f))
+
+
+#write program print following print
+# for i in range(6):
+#     for j in range(i):
+#         print(i,end='')
+#     print("\n")
+
+#
+# for i in range(6):
+#     for j in range(i):
+#         print("#",end=' ')
+#     print("\n")
+
+
+
+
+#pattern matching in pyth on
+# for i in range(6):
+#     for j in range(1,i+1):
+#         print("*",end='')
+#     print("\n")
+
+# for i in range(6):
+#     for j in range(i):
+#         print("*",end="")
+#     print("\n")
+#2)
+# for i in range(6,0,-1):
+#     for j in range(1,i+1):
+#         print("*",end='')
+#     print("\n")
+
+
+# for i in range(6,0,-1):
+#     for j in range(i):
+#         print("*",end="")
+#     print("\n")
+#3
+
+# for i in range(1,6):
+#     for k in range(1,6-i):
+#         print(" ",end='')
+#     for j in range(1,i+1):
+#         print("*",end='')
+#     print("\n")
+
+# for i in range(1,6):
+#     for k in range(6-i):
+#         print(" ",end='')
+#     for j in range(i):
+#         print("*",end="")
+# #     print("\n")
+# #4)
+# for i in range(6,0,-1):
+#     for k in range(1,6-i):
+#         print(" ",end='')
+#     for j in range(1,i+1):
+#         print("*",end='')
+#     print("\n")
+
+# for i in range(6,0,-1):
+#     for k in range(6-1):
+#         print(" ",end='')
+#     for j in range(i):
+#         print("*",end="")
+#     print("\n")
+
+#5
+# for i in range(1,6):
+#     for k in range(1,6-i):
+#         print(" ",end='')
+#     for j in range(1,(2*i-1)+1):
+#         print("*",end='')
+#     print("\n")
+
+
+# for i in range(6):
+#     for k in range(6-i):
+#         print(" ",end="")
+#     for j in range(1,2*i):
+#         print("*",end="")
+#     print("\n")
+
+
+#6
+# for i in range(6,0,-1):
+#     for k in range(1,6-i):
+#         print(" ",end='')
+#     for j in range(1,(2*i-1)+1):
+#         print("*",end='')
+#     print("\n")
+
+# for i in range(6,0,-1):
+#     for k in range(6-i):
+#         print(" ",end='')
+#     for j in range(1,2*i):
+#         print("*",end='')
+#     print("\n")
+
+# for i in range(1,6):
+#     for k in  range(1,6-i):
+#         print(" ",end='')
+#     for j in range(1,2*i-1+1):
+#         print("*",end='')
+#     print("\n")
+
+#coman frefix in string:
+# import os
+# # a=['flower','fly','flweb']
+# # d=os.path.commonprefix(a)
+# # print(d)
+# f=['dfjdfh','djgfdsf','erje']
+# g=os.path.commonprefix(f)
+# print(g,"[]")
+
+#two sum in progrm(important)
+# def twosum(num,target):
+#     for i in range(len(num)):
+#         for j in range(i+1,len(num)):
+#             if target-num[i]==num[j]:
+#                 return [i,j]
+#     # return None
+# num=[2,7,11,15]
+# target=9
+# print(twosum(num,target))
+
+
+#3sum program
+
+# def sum(num,target):
+#     for i in range(len(num)):
+#         for j in range(i+1,len(num)):
+#             if target-num[i]==num[j]:
+#                 return [i,j]
+# num=[2,7,11,15]
+# target=9
+# print(sum(num,target))
+
+
+# def su(num,target):
+#     for i in range(len(num)):
+#         for j in range(i+1,len(num)):
+#             if target-num[i]==num[j]:
+#                 return [i,j]
+# num=[2,3,6,8]
+# target=9
+# print(su(num,target))
+
+# find missing number in array
+# def mising(num):
+#     for i in range(len(num)):
+#         if i not in num:
+#             return i
+# num=[1,0,3]
+# print(mising(num))
+
+#missing number in array
+# def missing(num):
+#     for i in range(len(num)):
+#         if i not in num:
+#             return i
+# num=[0,1,3]
+# print(missing(num))
+
+#missing
+
+# a=[1,0,3,5,8,7,6]
+# for i in range(len(a)):
+#     if i not in a:
+#         print(i)
+
+
+#or#
+# def missing(num):
+#     x=0
+#     y=0
+#     for i in range(len(num)+1):
+#         x=x^i
+#     for i in range(len(num)):
+#         y=y^num[i]
+#     return x^y
+# num=[1,0,3]
+# print(missing(num))
+
+#majority of element
+
+#sort aray by parity(first even and after odd number print)
+# def sorted(num):
+#     i,j=0,len(num)-1
+#     while i<j:
+#         if num[i]%2!=0:
+#             num[i],num[j]=num[j],num[i]
+#             j=j-1
+#         else:
+#             i=i+1
+#     return num
+# num=[1,3,5,2,4,6]
+# print(sorted(num))
+
+#roate array
+# def right(lst,n):
+#     if n==0:
+#         return lst
+#     else:
+#         return right(lst[-1:]+lst[:-1],n-1)
+# lst=[1,2,3,4,5]
+# n=2
+# print(right(lst,n))
+
+
+# def rihrt(lst,n):
+#     if n==0:
+
+
+#single number
+# a=[2,2,4]   #output=[4] #exaor are used
+# v=0
+# for i in range(len(a)):
+#     v=v^a[i]
+# print(v)
+
+
+# a=[4,4,5,8,8]
+# d=0
+# for i in range(len(a)):
+#     d=d^a[i]
+# print(d)
+
+#or###
+# for i in a:
+#     if i%2!=0:
+#         print(i)
+
+# a=[2,2,1,4,4]
+# for i in a:
+#     if a[i]!=2:
+#         print(i,end=' ')
+
+
+#add two number
+
+# l1 = [2,4,3]
+# l2 = [5,6,4]
+
+#reverse interge
+####
+#LEAT CODE PROBLEAMS
+
+
+# 2)roman to integar
+# import roman
+# i=roman.fromRoman('III')
+# print(i)
+# j=roman.fromRoman("LVIII")
+# print(j)
+
+# 3)Valid Parentheses
+# Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+#
+# An input string is valid if:
+#
+#     Open brackets must be closed by the same type of brackets.
+#     Open brackets must be closed in the correct order.
+#     Every close bracket has a corresponding open bracket of the same type.
+# Example 1:
+#
+# Input: s = "()"
+# Output: true
+#
+# Example 2:
+#
+# Input: s = "()[]{}"
+# Output: true
+#
+# Example 3:
+#
+# Input: s = "(]"
+# Output: false
+
+#3). Merge Two Sorted Lists
+# list1 = [1,2,4]
+# list2 = [1,3,4]
+# list3=list1 + list2
+# print(sorted(list3))
+
+#plus one
+# a=[10,20,30]
+# b=a[0],a[1],a[2]+1
+# print(list(b))
+#
+# a=[1,2,3]
+# b=a[0],a[1],a[2]+1
+# print(list(b))
+
+# class solu:
+    # def plusone(self,dig):
+    #     plusone=int("".join(str(d) for d in dig))
+    #     return [int(d) for d in str(plusone)]
+# a=solu
+# FizzBuzz (solve fizbuz probleam)
+# for i in range(0,100):
+#     if i%15==0:
+#         print("fizbuzz")
+#     elif i%3==0:
+#         print("fizz")
+#     elif i%5==0:
+#         print("buzz")
+#     else:
+#         print(i)
+
+#move zero
+
+
+# def moveZeroes(nums):
+#     zeroes = 0
+#     for i in range(len(nums)):
+#         if nums[i] > 0:
+#             nums[zeroes], nums[i] = nums[i], nums[zeroes]
+#             zeroes = zeroes + 1
+#     return nums
+#
+# nums = [0, 1, 0, 3, 12]
+# print(moveZeroes(nums))
+
+# d=[2,4,0,1,0]
+
+# def movezero(nums):
+#     s=0
+#     for i in range(len(nums)):
+#         if nums[i]>0:
+#             nums[s],nums[i]=nums[i],nums[s]
+#             s=s+1
+#     return nums
+# nums=[2,4,0,1,0]
+# print(movezero(nums))
+
+# a=[1,5,0,7,0,8]
+# d=0
+# for i in range(len(a)):
+#     if a[i]>0:
+#         a[d],a[i]=a[i],a[d]
+#         d=d+1
+# print(a)
+
+
+# a=[[11, 12, 13, 14],
+#      [15, 16, 17, 18],
+#      [19, 20, 21, 22],
+#      [23, 24, 25, 26]]
+# ##                                  [11, 12, 13, 14,     18, 22, 26,  25, 24, 23,  19,  15, 16, 17, 21, 20]
+# l1=[]
+#
+# for i in range(len(a)):
+#     for j in range(len(a[i])):
+#         l1.append(a[i][j])
+# print(l1)
+
+# a=[[11, 12, 13, 14],
+#      [15, 16, 17, 18],
+#      [19, 20, 21, 22],
+#      [23, 24, 25, 26]]
+# b=a[0]+a[1]+a[2]+a[3]
+# print(b)
+
+
+
+# s = "Python Developer"                 output  ## pYthon repoleVED
+
+# s = "Python Developer"                  ## pYthon repoleVED
+# a=s.split()
+# str=""
+#
+# b=(s[0].lower())+s[1].upper()+s[2:6]
+# # print(b)
+# for i in a[1]:
+#     str=i+str
+# print(b+" "+str)
+
+# s = "Python Developer"
+# a=s.split()
+# str=''
+# b=(s[0].lower())+s[1].upper()+s[2:6]
+# print(b)
+# for i in a[1]:
+#     str=i+str
+# print(b+" "+str)
+
+
+
+
+# import re
+#
+# a="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum purus nec interdum eleifend. Aenean consectetur, erat non euismod ultricies, lorem enim mollis magna, in eleifend nisl massa a enim. Cras id nunc id velit fermentum sodales sit amet et ante. Interdum et malesuada m par@gmail.cofames ac ante ipsum primis in faucibus. Etiam tincidunt fringilla accumsan. Phasellus imperdiet nec libero a venenatis. Ut a rhoncus lectus, eget aliquam suresh@xyz.com urna. Nulla eget libero et nunc aliquet iaculis sit amet sit amet risus. Nunc sit amet mi quis ipsum viverra lobortis at sit amet felis. Vivamus pretium ornare lectus dan@abc.com quis dapibus. Vivamus sit amet placerat elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec fringilla in neque quis pharetra. Donec eu sapien finibus, suscipit nibh sit amet, pellentesque nibh"
+#
+# str=re.finditer("\S+@\S+", a)
+# for i in str:
+#     print(i.group(),i.start())
+
+#company name #Neosoft#
+#1)
+# x=int(input("Enter Value :"))
+# for i in range(x):
+#     print(" "*i, "*")
+
+#Binary problem
+# flag = 0
+# def by(y):
+#     if y!=0 and y!=1:
+#         flag=1
+#         break
+#     return y
+#
+# x=int(input("Enter Value :"))
+# by(x)
+# if flag==0:
+#     print("it is binary")
+# else:
+#     print("not binary")
+
+
+#Eastern Company#
+
+# from functools import *
+# ele=range(101)
+# a=reduce(lambda a,b:a+b, ele)
+# print(a)
+
+
+
+#2)
+# def sum(n):
+#     sum=0
+#     for i in range(1,n+1):
+#         sum+=i
+#     return sum
+# print(sum(100))
+
+#3)
+
+# tu=(1,2,3,4,5)
+# a=list(tu)
+# a[0]=11
+# a.append(100)
+# print(a)
+
+# Input = [1,3,4,3,5,7,2,7,3,2,4,3]
+#             # Output= [3,3,3,3,7,7,4,4,2,2,5,1]
+#
+# l1=[]
+# l2=[]
+# l3=[]
+# for i in Input:
+#     if Input.count(i)>1:
+#         if i%2!=0:
+#             l1.append(i)
+#         else:
+#             l2.append(i)
+#     else:
+#         l3.append(i)
+#
+# l1.sort()
+# l2.sort(reverse=True)
+# l3.sort(reverse=True)
+# print(l1+l2+l3)
+#
+# a = [1,3,4,3,5,7,2,7,3,2,4,3]
+# #             # Output= [3,3,3,3,7,7,4,4,2,2,5,1]
+# l1=[]
+# l2=[]
+# l3=[]
+# l4=[]
+# l5=[]
+# for i in a:
+#     if i==3:
+#         a.count(i)
+#
+#         l1.append(i)
+#     elif i==7:
+#         a.count(i)
+#         l2.append(i)
+#     elif i==4:
+#         a.count(i)
+#         l3.append(i)
+#     elif i==2:
+#         a.count(i)
+#         l4.append(i)
+#     elif i==5:
+#         a.count(i)
+#         l5.append(i)
+# print(l1)
+# print(l2)
+
+# print(l3)
+# print(l4)
+# print(l5)
+# print(l1+l2+l3+l4+l5)
+
+##company name coforge######
+# a = [13, 11, 45, 32, 89, 21]
+# l1=list(map(lambda x: x*x, a))
+# print(l1)
+
+# a=51236   ## 63215
+
+
+# import re
+# inp="my name is nikhil and my mobile number is 7020710000 and my company is"
+# str=re.finditer("\d+", inp)
+# for i in str:
+#     print(i.group())
+
+
+# l=[2,3,4,2,4,2,3,6,7]
+# l1=[]
+# for i in l:
+#     if i not in l1:
+#         l1.append(i)
+# print(l1)
+
+
+# a=1234     #output=4321
+# i=0
+# while a!=0:
+#     d=a%10     ##4,3,2,1
+#     i=i*10+d  ## 4,43,432,4321
+#     a=a//10   ###123,12,1,0.1
+# print(i)
+
+
+# l2=[1,2,3]+(5,6,7)     ## TypeError
+# print(l2)
+
+# l2=[1,2,3]-[1,2,3]     ## TypeError: unsupported operand type(s) for -: 'list' and 'list'
+# print(l2)
+
+# l2=(1,2,3)+(5,6,7)     ## (1, 2, 3, 5, 6, 7)
+# print(l2)
+# l2=(1,2,3)-(5,6,7)     ## TypeError: unsupported operand
+# print(l2)
+
+# l2={1,2,3} - {5,6,7}     ## {1, 2, 3}
+# print(l2)
+# l2={1,2,3} - {5,6,1}     ## {2, 3}
+# print(l2)
+# l2={1,2,3} + {5,6,7}     ## TypeError: unsupported operand type(s) for +: 'set' and 'set'
+# print(l2)
+
+# s1={1,2,3}
+# # s2={3,4,5}
+# # s1.update(s2)
+# # print(s1)
+
+# d1={1:"AA",2:"BB"} + {4:"vv",5:"gg"}   ## TypeError: unsupported operand type(s) for +: 'dict' and 'dict'
+# print(d1)
+# d1={1:"AA",2:"BB"} - {4:"vv",5:"gg"}   ## TypeError: unsupported operand type(s) for -: 'dict' and 'dict'
+# print(d1)
+# d1={1:"AA",2:"BB"} * {4:"vv",5:"gg"}   ## TypeError: unsupported operand type(s) for *: 'dict' and 'dict'
+# print(d1)
+
+# st="sss"+"ccc"            ## sssccc
+# print(st)
+# st="sss"-"ccc"        ## TypeError: unsupported operand type(s) for -: 'str' and 'str'
+# print(st)
+# st="sss"*"ccc"         ## TypeError: can't multiply sequence by non-int of type 'str'
+# print(st)
+
+# class A:
+#     a=10
+#     def m1(self):
+#         print("m111111")
+# class B(A):
+#     def m2(self):
+#         super().m1()
+#         print("parent",super().a)
+# obj=B()
+# obj.m2()
+
+
+# import random
+# for i in range(1,20):
+#     print(random.randint(1,5))
+
+
+
+# str1="my name is suresh"
+#         # l=len([x for x in str1])               ## len=17
+# l=len([x for x in str1 if x!=' '])     ## len=14
+# print(l)
+
+
+# l=len([x for x in str1 if x!=" "])
+# print(l)
+
+
+# a='nikhil avanti'
+# g=[x for x in a if x!=" "]
+# print(len(g))
+
+
+
+import re
+# l=["gangaram","poll","good","bad","suresh","mahesh","ram","mahesh"]
+# l1=[]
+# for i in l:
+#     if i.startswith("g"):
+#         l1.append(i)
+# print(l1)
+
+# import re
+# l=["gangaram","poll","good","bad","suresh","mahesh","ram","mahesh"]
+#
+# l1=[]
+# for i in range(len(l)):
+#     if i%2==0:
+#         l1.append(l[i])
+# print(l1)
+
+
+# l1=[1,2,3,4,5,6]
+# d1={x:x*x for x in l1}
+# print(d1)
+
+# a="nikhil"
+# s=''
+# for i in a:
+#     if "n"==i:
+#         s=a.replace("n",'p')
+# print(s)
+
+            # s=a.replace("n",'p')
+            # print(s)
+
+#zero shifing
+# b=[0,3,0,4,5,6,0,7]   ## [3,4,5,6,7,0,0,0]
+# l1=[]
+# l2=[]
+# for i in b:
+#     if i%10==0:
+#         l1.append(i)
+#     else:
+#         l2.append(i)
+# l3=l2+l1
+# print(l3)
+
+
+# a=[1,0,5,0,4,0]
+# b=[]
+# c=[]
+# for i in a:
+#     if i%10==0:
+#         b.append(i)
+#     else:
+#         c.append(i)
+# d=c+b
+# print(d)
+
+
+# input={"banana": 2, "apple": 3, "cherry": 1}    #(imp)
+# ## the output should be {"cherry": 1, "banana": 2, "apple": 3}.
+# d1=list(input.keys())
+# print(d1)
+# d1.sort(reverse=True)
+# print(d1)
+# sorted_dict={i:input[i] for i in d1}
+# print(sorted_dict)
+
+# ip=[[12,3],[4,5,6]]
+# l1=[]
+# for i in range(len(ip)):
+#     for j in range(len(ip[i])):
+#         l1.append(ip[i][j])
+# print(l1)
+  ##or##
+# f=ip[0]+ip[1]
+# print(f)
+
+# p=[[12,3],[4,5,6]]
+# b=[]
+# for i in range(len(p)):
+#     for j in range(len(p[i])):
+#         b.append(p[i][j])
+# print(b)
+
+# class A:
+#     def method1(self,a):
+#         self.a=a
+#     def method1(self,a,b):
+#         self.a=a
+#         self.b=b
+#     def method1(self,a,b,c):
+#         self.a=a
+#         self.b=b
+#         self.c=c
+# obj=A()
+# # obj.method1(2)
+# # obj.method1(2,3)
+# obj.method1(2,3,4)
+# print(obj.__dict__)
+# print(obj.a,obj.b)
+
+
+
+###  SpanIdea IT Company
+#find second higst number in lsit
+# def sec_highest(x):
+#     a=x[0]
+#     b=x[0]
+#     for i in range(len(x)):
+#         if x[i]>a:
+#             a=x[i]
+#     for j in range(len(x)):
+#         if x[j]>b and x[j]<a:
+#             b=x[j]
+#     return b
+# l1=[5,3,4,7,8,9,1,2]
+# print(sec_highest(l1))
+
+# a= [5, 3, 4, 7, 8, 9, 1, 2]
+# d=set(a)
+# print(d)
+# d.remove(max(d))
+# print(max(d))
+
+#using list comparshion
+# def secondmax(arr):
+#     sublist = [x for x in arr if x < max(arr)]
+#     return max(sublist)
+#
+#
+# if __name__ == '__main__':
+#     arr = [10, 20, 4, 45, 99]
+#     print(secondmax(arr))
+
+
+# def funcion(x):
+#     a=x[0]
+#     b=x[0]
+#     for i in range(len(x)):
+#         if x[i]>a:
+#             a=x[i]
+#     for j in range(len(x)):
+#         if x[j]>b and x[j]<a:
+#                 b=x[j]
+#     return b
+# x=[10,20,40,20]
+# print(funcion(x))
+
+#Wise Energy company
+
+
+# st1="my name is suresh"
+# st=""
+# for i in st1:
+#     st=i+st
+# print(st)
+
+
+## MAP & filter
+
+# l=[1,2,3,4,5,6]
+# l1=list(map(lambda x:x*x,l))     #[1, 4, 9, 16, 25, 36]
+# print(l1)
+
+# l=[]
+# def recu(x):
+#     for i in x:
+#         if type(i) == list:
+#             recu(i)
+#         else:
+#             l.append(i)
+# a=[1, 2, 3, [4, 5, 6], [7, [8, 9], 10]]    #output   ##  [1,2,3,4,5,6,7,8,9,10]
+# # l=[]
+# recu(a)
+# print(l)
+
+
+
+# b=[0,1,2,3,4,2,3,2,6,7,2,3]  ## [2]
+# l=[]
+# for i in b:
+#     if b.count(i)>=2:
+#         l.append(i)
+#         break
+# print(l)
+
+# ------------------------ quest global -----------------------------------
+
+# st1='barabdos'  ## r
+# f=''
+
+# for i in st1:
+#     if st1.count(i)==1:
+#         print(i)
+#         break
+####or####
+# b=sorted(st1)
+# # print(b)
+# for i in b:
+#     if i=='r':
+#         f=f+i
+#         break
+# print(f)
+
+
+# ----------------------------------
+# st1='barabdos'  ## b
+#
+# for i in st1:
+#     if st1.count(i)==2:
+#         print(i)
+#         break
+
+# -------------------------------------
+
+#####  Capjemini
+
+# l1=[4,2,3,6,7,1,9]
+
+# for i in range(len(l1)):
+#     for j in range(len(l1)-1):
+#         if l1[j]>l1[j+1]:
+#             l1[j],l1[j+1]=l1[j+1],l1[j]
+# print(l1)
+
+# for i in range(len(l1)):
+#     for j in range(len(l1)-1):
+#         if l1[j]>l1[j+1]:
+#             l1[j],l1[j+1]=l1[j+1],l1[j]
+# print(l1)
+
+
+
+
+
+# a=10
+# b=5
+# a,b=b,a
+# print(a,b)
+
+# where, grou, hav, order
+
+
+# a='5555'
+# print(int(a))
+
+
+
+
+#######  Hexaware
+
+# try:
+#     age = int(input("Enter the age:"))
+#     if(age<18):
+#         raise ValueError
+#     else:
+#         print("the age is valid")
+# except ValueError:                             ## type
+#     print("The age is not valid")
+
+
+
+
+# --------------------
+
+# class A:
+#     def __init__(self):
+#         pass
+#     def test(self,a,b):
+#         try:
+#             print(a/b)
+#         except ZeroDivisionError:
+#             print("invalid input")
+# obj=A()
+# obj.test(10,"suresh")
+
+
+# select * from employee order by DESC salary limit 2,1;
+
+
+# sp=10
+# ep=19
+#
+# for i in range(sp,ep):
+#     if i>1:
+#         for j in range(2,i):
+#             if i%j==0:
+#                 break
+#         else:
+#             print(i)
+
+
+# INPUT= "SURESH KUMAR"
+# # OUTPUT: S5R5SH K5M5R
+# #
+# vowels="A","E","I","O","U"
+# s=""
+# for i in INPUT:
+#     if i in vowels:
+#         s=s+str(5)
+#     else:
+#         s=s+i
+# print(s)              ## S5R5SH K5M5R
+
+
+# from collections import Counter
+#
+# def is_anagram(s1,s2):
+#     if Counter(s1)==Counter(s2):
+#         return True
+#     else:
+#         return False
+# S1 = 'bbcaa'
+# S2 = 'ababc'
+# print(is_anagram(S1,S2))
+#
+# print("S1", Counter(S1))
+# print("S2", Counter(S2))
+
+
+# def is_anagram(s1,s2):
+#     if sorted(s1)==sorted(s2):
+#         return True
+#     else:
+#         return False
+# S1 = 'bbcdaa'
+# S2 = 'abadbc'
+# print(is_anagram(S1,S2))
+
+
+# l3 = [1,2,3,4,'a','b','c','D','E']
+# for i in l3:
+#     if type(i)==str:
+#         print(i.upper(),end='')
+#     else:
+#         print(i)
+
+
+l3 = [1,2,3,4,'a','b','c','D','E']
+# count=0
+# for i in l3:
+#     if type(i)==str:
+#         if i.upper() in l3:
+#             count+=1
+# print(count)
+
+
+# c=0
+# d=0
+# for i in l3:
+#     if type(i)==str:
+#         if i.upper() in l3:
+#             c=c+1
+#         elif i.lower() in l3:
+#             d=d+1
+#
+# print(d)
+# print(c)
+#
+#using list comparshion
+# l2=[x for x in l3 if type(x) == str if x.isupper()]
+# print(len(l2))
+
+
+# count the fruits
+# fruits=[{'Apple':4,'Orange':7,'Grape':3},{'Guava':6,'Lemon':4,'Banana':8},{'Orange':5,'Pineapple':7,'Apple':7}]
+# d = {}
+# for i in fruits:
+#     for k,v in i.items():
+#         d[k]=d.get(k,0)+1
+#
+# print(d)
+
+# l=['4','5','8','2']
+#
+# for i in l:
+#     print(i)
+# l1=[print(x) for x in l]
+# print("l1", l1)
+
+# l=[4,5,8,2]   ##
+# l1=[str(i) for i in l]
+# print(l1)
+
+import copy
+
+# in deep copy nested list can reflect only copied list..
+# l=[1,2,3,[5,6,7],8,9]
+# l1=copy.deepcopy(l)
+# l1[0]=300
+# l1[3][0]=500
+# print(l1)
+# print(l)
+
+
+#    in Shallo copy nested list can reflect both [original & copied list]..
+# l=[1,2,3,[5,6,7],8,9]
+# l2=l
+# l2[0]=500
+# # l2[2][0]=400
+# print(l2)
+# print(l)
+
+#second higsht number in list
+# def order(x):
+#     a=x[0]
+#     b=x[0]
+#     for i in range(len(x)):
+#         if a<x[i]:
+#             a=x[i]
+#     for j in range(len(x)):
+#         if b<x[j] and a>x[j]:
+#             b=x[j]
+#     return b
+# arr=[0,-7,6,7,2,1,3,5,9,4]
+# print(order(arr))
+
+# def order(z):
+#     x=z[0]
+#     y=z[0]
+#     for i in range(len(z)):
+#         if z[i]>x:
+#             x=z[i]
+#     for j in range(len(z)):
+#         if z[j]>y and z[j]<x:
+#             y=z[j]
+#     return y
+# z=[10,20,30,40,50]
+# print(order(z))
+
+
+# def fun_name(x,y):
+#     a=x+y
+#     b=x-y
+#     return a,b
+# print(fun_name(2,3))
+
+
+
+
+
+
+
+
+
+
